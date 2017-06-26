@@ -1,5 +1,7 @@
 <?php
 
+use msales\RethinkTest\Queues\Worker;
+
 /*
 |--------------------------------------------------------------------------
 | Scheduler Workers
@@ -11,7 +13,5 @@
 */
 
 return [
-
-    //
-
+    Worker::class => 1,
 ];

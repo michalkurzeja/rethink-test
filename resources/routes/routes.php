@@ -11,9 +11,3 @@ use msales\Flyweight\BlueprintExample\Http\Controllers\TestController;
 | routes are loaded by the RouteServiceProvider.
 |
 */
-
-/**
- * @var \mSales\Flyweight\Contracts\Routing\Router $router
- */
-
-$router->get('/', TestController::class . '@index');

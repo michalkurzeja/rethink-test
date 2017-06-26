@@ -1,6 +1,7 @@
 {
-    "name": "msales/flyweight-blueprint-example",
-    "description": "Example project using Flyweight Blueprint",
+    "name": "michalkurzeja/rethink-test",
+    "license": "proprietary",
+    "description": "Evaluation of RethinkDB",
     "type": "project",
     "repositories": [
         {
@@ -18,7 +19,8 @@
     ],
     "require": {
         "php": "7.*",
-        "msales/flyweight-blueprint": "0.*"
+        "msales/flyweight-blueprint": "0.*",
+        "danielmewes/php-rql": "^2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.6",
@@ -26,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "msales\\Flyweight\\BlueprintExample\\": "app"
+            "msales\\RethinkTest\\": "app"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "msales\\Flyweight\\BlueprintExample\\Tests\\": "tests"
+            "msales\\RethinkTest\\": "tests"
         }
     },
     "scripts": {
